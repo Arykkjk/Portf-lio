@@ -1,0 +1,96 @@
+header {
+    background-color: rgb(85, 31, 119);
+    padding: 20px 0;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    size: 50px;
+    color: white;
+}
+
+main {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.atividade {
+    text-align: center;
+}
+
+.atividade li {
+    display: inline-block;
+    width: 300px;
+    height: 290px;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+    box-sizing: border-box;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin: auto 13%;
+    transition: 0.5s all;
+    background-color: white;
+}
+
+.atividade li a {
+    text-decoration: none;
+}
+
+.atividade li:hover {
+    transform: scale(1.05,1.05);
+    border-color: rgb(213, 146, 255);
+}
+
+.atividade a:hover p {
+    color:  rgb(213, 146, 255);
+}
+
+.atividade p {
+    font-size: 42px;
+    font-weight: bold;
+    color:  rgb(213, 146, 255);
+}
+
+.atividade h6 {
+    margin: 5px 1%;
+    text-align: center;
+    font-size: 32px;
+    color: black;
+    font-family: "PokerinOctober";
+}
+
+.atividade h5 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-align: center;
+    font-size: 30px;
+    color:  rgb(85, 31, 119);
+    margin-left: 2px;
+}
+
+.fundobaixoli {
+    background-color: rgb(213, 146, 255);
+    padding: 33px 0;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+footer {
+    background-color: rgb(85, 31, 119);
+    padding: 20px 0;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer h1 {
+    size: 50px;
+    color: white;
+}
+
+
